@@ -1,0 +1,14 @@
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\bin\Debug\net7.0\IntroBackend.exe
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\bin\Debug\net7.0\IntroBackend.deps.json
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\bin\Debug\net7.0\IntroBackend.runtimeconfig.json
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\bin\Debug\net7.0\IntroBackend.dll
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\bin\Debug\net7.0\IntroBackend.pdb
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.AssemblyInfoInputs.cache
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.AssemblyInfo.cs
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.csproj.CoreCompileInputs.cache
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.dll
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\refint\IntroBackend.dll
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.pdb
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.genruntimeconfig.cache
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\ref\IntroBackend.dll
