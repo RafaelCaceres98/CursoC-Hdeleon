@@ -12,3 +12,4 @@ C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\n
 C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.pdb
 C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.genruntimeconfig.cache
 C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\ref\IntroBackend.dll
+C:\Users\Profe Caceres rafael\source\repos\IntroBackend\IntroBackend\obj\Debug\net7.0\IntroBackend.sourcelink.json

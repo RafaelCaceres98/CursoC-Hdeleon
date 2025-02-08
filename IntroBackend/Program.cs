@@ -3,7 +3,7 @@
 //using System.Reflection.Metadata.Ecma335;
 
 //var sale = new SaleWithTax(15, 116m);
-  
+
 //var message = sale.GetInfo();
 
 //Console.WriteLine(message);
@@ -51,7 +51,7 @@
 //        return "El total es " + Total;
 //    }
 //}
-     
+
 
 
 
@@ -96,72 +96,118 @@
 
 //Generic
 
-var numbers = new Mylist<int>(5);
-var names = new Mylist<string>(5);
-var beers = new Mylist<beer>(5);
+//var numbers = new Mylist<int>(5);
+//var names = new Mylist<string>(5);
+//var beers = new Mylist<beer>(5);
 
 
 
 
-numbers.Add(1);
-numbers.Add(2);
-numbers.Add(3);
-numbers.Add(4);
-numbers.Add(5);
-numbers.Add(6);
+//numbers.Add(1);
+//numbers.Add(2);
+//numbers.Add(3);
+//numbers.Add(4);
+//numbers.Add(5);
+//numbers.Add(6);
 
-names.Add("Juan");
-names.Add("andres");
-names.Add("perez");
-names.Add("martinez");
-names.Add("jesus");
-names.Add("bien");
+//names.Add("Juan");
+//names.Add("andres");
+//names.Add("perez");
+//names.Add("martinez");
+//names.Add("jesus");
+//names.Add("bien");
 
-beers.Add(new beer());
+//beers.Add(new beer()
+//{
+//    Name ="Erdinger",
+//    Price = 5
+//});
+//beers.Add(new beer()
+//{
+//    Name = "Corone",
+//    Price = 1
+//});
+
+//beers.Add(new beer()
+//{
+//    Name = "Aguila",
+//    Price = 15
+//});
 
 
 
-Console.WriteLine(numbers.GetContent());
-Console.WriteLine(names.GetContent());
-public class Mylist<T>
+//Console.WriteLine(numbers.GetContent());
+//Console.WriteLine(names.GetContent());
+//Console.WriteLine(beers.GetContent());
+//public class Mylist<T>
+//{
+//    private List<T> _list;
+//    private int _limit;
+
+//    public Mylist(int limit) {
+//        _limit = limit;
+//        _list = new List<T>();
+//    }
+
+//    public void Add(T element)
+//    {
+//        if(_list.Count < _limit)
+//        {
+//            _list.Add(element);
+
+//        }
+
+
+//    }
+
+//    public string GetContent()
+//    {
+//        string content = "";
+//        foreach (var  element in _list)
+//        {
+//            content += element + ", ";
+
+//        }
+
+//        return content; 
+//    }
+
+//}
+
+//public class beer
+//{
+//    public string Name { get; set;  }
+
+//    public decimal Price { get; set; }
+
+//    public override string ToString()
+//    {
+//        return "Nombre: " + Name + " Price: " + Price;
+//    }
+
+//}
+
+using System.Text.Json;
+
+
+//SERIALIZACION  Y DESERIALIZACION
+
+
+
+
+//PROGRAMACION  FUNCIONAL
+Console.WriteLine(Sub(2,1));
+int  Sub(int a, int b)
 {
-    private List<T> _list;
-    private int _limit;
-
-    public Mylist(int limit) {
-        _limit = limit;
-        _list = new List<T>();
-    }
-
-    public void Add(T element)
-    {
-        if(_list.Count < _limit)
-        {
-            _list.Add(element);
-
-        }
-
-
-    }
-
-    public string GetContent()
-    {
-        string content = "";
-        foreach (var  element in _list)
-        {
-            content += element + ", ";
-
-        }
-
-        return content; 
-    }
-
+    return a + b;
 }
 
-public class beer
+var show = Show;
+
+show("Hola mundo");
+
+void Show (string message)
 {
-    public string Name { get; set;  }
-
-    public decimal Price { get; set; }
-
+    Console.WriteLine(message);
 }
+
